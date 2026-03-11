@@ -106,7 +106,7 @@ Based on this, write a detailed, vivid, and accurate description of what is like
 Write 3-4 sentences in a natural, descriptive tone. Do not mention confidence scores or AI in your description."""
 
     response = client.chat.completions.create(
-        model="llama3-70b-8192",
+        model="llama-3.3-70b-versatile",
         messages=[{"role": "user", "content": prompt}],
         max_tokens=300,
         temperature=0.7,
